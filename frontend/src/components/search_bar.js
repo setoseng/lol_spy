@@ -17,7 +17,8 @@ class Search extends Component {
 
   handleSubmit(event){
     //console.log(this.state.searchTerm);
-    axios.get(`http://localhost:4000/getplayer?playerid=${this.state.searchTerm}`)
+    var api = process.env.PUBLIC_URL || 'http://localhost:4000';
+    axios.get(`${api}/getplayer?playerid=${this.state.searchTerm}`)
     .then(function(res){
       console.log(res.data);
     });
