@@ -12,7 +12,7 @@ var Schema = mongoose.Schema;
 
 
 
-LolApi.init('RGAPI-e6bb7ec7-b596-47cc-8fd4-c119a7ee8ee2','na');
+LolApi.init('RGAPI-0fefb997-09eb-4fd2-9c53-64a5b441c48e','na');
 var proList = ["Adrian","Akaadian","Altec","Looper","Pobelter","Arrow","scarra","Impact","Goldenglue","Shiphtur","Shrimp","Doublelift"
 ,"Olleh","zig","Cris","Sneaky","Ray","Gate","Reignover","Wildturtle","Hakuho","Pirean","Bjergson","Lourlo","Stunt","Chaser","Nientonsoh"
 ,"KiwiKid","BoxBox","Jensen","Seraph","Moon","Link","TheOddOne","Svenskeren","Hard","Trick2G","WingsofDeath","DontMashMe","Hi Im Gosu","Biofrost","Valkrin","Meteos","Ninja","NightBlue3","Piglet"
