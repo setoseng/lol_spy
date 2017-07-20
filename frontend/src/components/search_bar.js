@@ -10,7 +10,7 @@ class Search extends Component {
 
   handleSubmit(event){
     //console.log(this.state.searchTerm);
-    var api = 'https://lolspyapi.setyaseng.com' || 'http://localhost:4000';
+    var api = process.env.PUBLIC_URL || 'http://localhost:4000';
     axios.get(`${api}/getplayer?playerid=${this.state.searchTerm}`)
     .then(function(res){
       console.log(res.data);
