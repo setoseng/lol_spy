@@ -8,13 +8,6 @@ class Search extends Component {
     this.state= { searchTerm : "Doublelift" };
   }
 
-  // componentDidMount(){
-  //   axios.get(`http://localhost:4000/getplayer?playerid=${this.state.searchTerm}`)
-  //   .then(function(res){
-  //     console.log(res.data);
-  //   });
-  // }
-
   handleSubmit(event){
     //console.log(this.state.searchTerm);
     var api = process.env.PUBLIC_URL || 'http://localhost:4000';
